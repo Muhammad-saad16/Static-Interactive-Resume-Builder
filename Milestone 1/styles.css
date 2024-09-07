@@ -1,0 +1,120 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Layout for the Resume Sections */
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Personal Information Section */
+#personal-info {
+  text-align: center;
+  padding: 30px;
+}
+
+#personal-info h1 {
+  color: #3498db;
+}
+
+#personal-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  margin-top: 10px;
+}
+
+/* Sections for Education, Skills, Work Experience */
+#education, #skills, #work-experience {
+  padding: 20px;
+}
+
+ul li {
+  padding: 5px 0;
+  font-size: 1.2em;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  #personal-info img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  ul li {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+}
